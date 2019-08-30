@@ -1,0 +1,3 @@
+pipeline:
+    name: newsworthy39/moonly-network-nginx-moonshot
+    type: dockerfile
