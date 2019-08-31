@@ -1,3 +1,4 @@
 pipeline:
     name: newsworthy39/moonly-network-nginx-moonshot
     type: dockerfile
+    requires: newsworthy39/moonly-network-php-api
