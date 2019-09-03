@@ -1,4 +1,4 @@
-FROM newsworthy39/moonly-network-php-api:latest
+FROM newsworthy39/boxeye-php-qs:latest
 
 LABEL maintainer="newsworthy39@github.com"
 
@@ -9,5 +9,3 @@ RUN  rm -rf /etc/nginx/sites-enabled/*
 COPY vhost.conf /etc/nginx/sites-enabled/vhost.conf
 
 CMD ["nginx", "-g", "daemon off;"]
-
-
