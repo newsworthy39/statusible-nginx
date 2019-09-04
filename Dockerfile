@@ -1,4 +1,4 @@
-FROM newsworthy39/boxeye-php-qs:latest
+FROM newsworthy39/serverstate-php-qs:latest
 
 LABEL maintainer="newsworthy39@github.com"
 
